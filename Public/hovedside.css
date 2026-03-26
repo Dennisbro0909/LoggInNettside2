@@ -1,0 +1,122 @@
+
+body{
+background-image: url(Backround.png);
+background-size: cover;
+background-repeat: no-repeat;
+margin: 0;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.Page{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+.TopBar{
+width: 1200px;
+height: 90px;
+background: linear-gradient(135deg, #f3e8ff, #e0e7ff);
+margin-top: 30px;
+border-radius: 25px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-left: 30px;
+padding-right: 30px;
+box-sizing: border-box;
+}
+
+
+.LogoText{
+font-size: 35px;
+font-weight: bold;
+}
+
+
+.LogoutButton{
+width: 150px;
+height: 50px;
+border: none;
+border-radius: 20px;
+font-size: 22px;
+font-weight: bold;
+background-color: white;
+color: rgb(119, 119, 119);
+}
+
+
+.LogoutButton:hover{
+cursor: pointer;
+background-color: #EEF2F7;
+}
+
+
+.MainBox{
+background: linear-gradient(135deg, #f3e8ff, #e0e7ff);
+width: 1200px;
+height: 700px;
+margin-top: 30px;
+border-radius: 30px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+.WelcomeText{
+font-size: 60px;
+font-weight: bold;
+margin-top: 40px;
+margin-bottom: 10px;
+}
+
+
+.InfoText{
+font-size: 24px;
+color: rgb(119, 119, 119);
+margin-bottom: 40px;
+}
+
+
+.CardRow{
+display: flex;
+gap: 30px;
+margin-top: 20px;
+}
+
+
+.Card{
+width: 300px;
+height: 180px;
+background-color: white;
+border-radius: 25px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+
+.Card:hover{
+background-color: #EEF2F7;
+cursor: pointer;
+}
+
+
+.CardTitle{
+font-size: 32px;
+font-weight: bold;
+margin-bottom: 10px;
+color: black;
+}
+
+
+.CardText{
+font-size: 20px;
+color: rgb(119, 119, 119);
+margin: 0;
+}
+

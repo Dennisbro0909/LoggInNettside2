@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="hovedside.css">
+</head>
+<body>
+
+<div class="Page">
+
+    <div class="TopBar">
+
+        <p class="LogoText">My Site</p>
+        <button class="LogoutButton">Logout</button>
+
+    </div>
+
+    <div class="MainBox">
+
+        <p class="WelcomeText">Welcome back</p>
+        <p class="InfoText">Choose what you want to do</p>
+
+        <div class="CardRow">
+
+            <div class="Card">
+
+                <p class="CardTitle">Profile</p>
+                <p class="CardText">See your account</p>
+
+            </div>
+
+            <div class="Card">
+
+                <p class="CardTitle">Messages</p>
+                <p class="CardText">Check your messages</p>
+
+            </div>
+
+            <div class="Card">
+
+                <p class="CardTitle">Settings</p>
+                <p class="CardText">Change your settings</p>
+
+            </div>
+
+        </div>
+
+        <div class="CardRow">
+
+            <div class="Card">
+
+                <p class="CardTitle">Friends</p>
+                <p class="CardText">See your friends</p>
+
+            </div>
+
+            <div class="Card">
+
+                <p class="CardTitle">Shop</p>
+                <p class="CardText">Open the shop</p>
+
+            </div>
+
+            <div class="Card">
+
+                <p class="CardTitle">News</p>
+                <p class="CardText">Latest updates</p>
+
+            </div>
+            
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+document.querySelector(".LogoutButton").addEventListener("click", function () {
+    window.location.href = "/";
+});
+</script>
+
+</body>
+</html>
